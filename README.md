@@ -54,7 +54,7 @@ So please try accessing the athena console and running the query(e.g. select *).
    * make, awscli
 
 ```
-~/w/w/empty-return-athena-by-glue_crawler ››› make all
+~/w/w/empty-return-athena-by-glue_crawler ››› make all S3_BUCKET=<YOUR S3 BUCKET>
 ```
 
 NOTE: This command put object your s3 bucket and create iam role. please see Makefile and _terraform/iam.tf
