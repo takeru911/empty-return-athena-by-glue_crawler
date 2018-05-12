@@ -1,0 +1,5 @@
+*.tfstate
+.terraform
+*.backup
+.idea
+crawler.up
